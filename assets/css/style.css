@@ -1,0 +1,28 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Lobster';
+}
+.navbar-brand img{
+    width: 50px;
+}
+.carousel-item img {
+    height: 700px;
+    object-fit: cover;
+  }
+hr {
+    height: 3px;
+}
+h1, h2 {
+    font-size: 1.3rem;
+}
+.iconos__footer {
+    font-size: 23px;
+}
+.imgagen_cards {
+ height: 200px;
+}
+p {
+    font-family: 'Cabin';
+}
