@@ -21,9 +21,12 @@ $(document).ready(function(){
         });
       } // End if
     });
-  });
+    
   $(function () {
     $('[data-toggle="popover"]').popover()
   })
 
-//Agregando un comentario al azar
+  $('.button').on('click', (event) => {
+    event.preventDefault();
+  })
+  });
